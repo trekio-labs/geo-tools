@@ -16,11 +16,11 @@
   ],
   "license": "MIT",
   "author": "Trekio Labs",
-  "homepage": "https://github.com/Trekio-Labs/geo-tools#readme",
-  "bugs": "https://github.com/Trekio-Labs/geo-tools/issues",
+  "homepage": "https://github.com/trekio-labs/geo-tools#readme",
+  "bugs": "https://github.com/trekio-labs/geo-tools/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trekio-Labs/geo-tools.git"
+    "url": "git+https://github.com/trekio-labs/geo-tools.git"
   },
   "type": "module",
   "sideEffects": false,
