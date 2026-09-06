@@ -1,4 +1,4 @@
-# @trekio/geo-tools
+# @trekio-labs/geo-tools
 
 Small geodesic helpers for GPS tracks and route math. Zero runtime dependencies, pure functions, ESM + CJS, TypeScript types included.
 
@@ -7,17 +7,17 @@ Built at [Trekio Labs](https://github.com/Trekio-Labs) for [TrekGuard](https://t
 ## Install
 
 ```bash
-npm install @trekio/geo-tools
+npm install @trekio-labs/geo-tools
 ```
 
 ```ts
-import { distance } from '@trekio/geo-tools';
+import { distance } from '@trekio-labs/geo-tools';
 ```
 
 ## Use
 
 ```ts
-import { distance, bearing, destination, distanceToPath, simplifyPath } from '@trekio/geo-tools';
+import { distance, bearing, destination, distanceToPath, simplifyPath } from '@trekio-labs/geo-tools';
 
 const lukla = { lat: 27.6869, lon: 86.7314 };
 const namche = { lat: 27.8069, lon: 86.7140 };
