@@ -20,8 +20,10 @@ import { distance } from '@trekio/geo-tools';
 ```
 
 `dist/` is not committed, so npm builds the package on install via the `prepare`
-script. That means the install pulls the TypeScript toolchain as well — slower
-than a registry tarball, but it keeps generated output out of the history.
+script. The build toolchain is fetched into a temporary directory for that step
+and does not end up in your dependency tree — the install is just slower than a
+registry tarball would be, and it needs a working toolchain on the machine (CI
+included).
 
 A git dependency pins to a ref rather than a semver range, so `^` updates do not
 apply; bump the tag in your `package.json` to move versions.
