@@ -1,6 +1,6 @@
 {
   "name": "@trekio-labs/geo-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dependency-free geodesic helpers: haversine distance, bearing, destination, point-to-path distance, bounding boxes and Douglas-Peucker simplification.",
   "keywords": [
     "geo",
