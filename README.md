@@ -2,7 +2,7 @@
 
 Small geodesic helpers for GPS tracks and route math. Zero runtime dependencies, pure functions, ESM + CJS, TypeScript types included.
 
-Built at [Trekio Labs](https://github.com/trekio-labs) for [TrekGuard](https://trekguard.app), where the same handful of calculations kept getting re-implemented — slightly differently each time — across an app, a website and a batch of build scripts.
+Built at [Trekio Labs](https://github.com/Trekio-Labs) for [TrekGuard](https://trekguard.app), where the same handful of calculations kept getting re-implemented — slightly differently each time — across an app, a website and a batch of build scripts.
 
 ## Install
 
