@@ -6,9 +6,25 @@ Built at [Trekio Labs](https://github.com/Trekio-Labs) for [TrekGuard](https://t
 
 ## Install
 
+Installed straight from GitHub — the package is not on npm.
+
 ```bash
-npm install @trekio/geo-tools
+npm install github:Trekio-Labs/geo-tools          # latest main
+npm install github:Trekio-Labs/geo-tools#v0.1.0   # pinned to a tag
 ```
+
+Import it under its package name:
+
+```ts
+import { distance } from '@trekio/geo-tools';
+```
+
+`dist/` is not committed, so npm builds the package on install via the `prepare`
+script. That means the install pulls the TypeScript toolchain as well — slower
+than a registry tarball, but it keeps generated output out of the history.
+
+A git dependency pins to a ref rather than a semver range, so `^` updates do not
+apply; bump the tag in your `package.json` to move versions.
 
 ## Use
 

@@ -52,6 +52,7 @@
     "build:esm": "tsc -p tsconfig.build.json",
     "build:cjs": "tsc -p tsconfig.cjs.json && node scripts/fixup-cjs.mjs",
     "typecheck": "tsc --noEmit",
+    "prepare": "npm run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
